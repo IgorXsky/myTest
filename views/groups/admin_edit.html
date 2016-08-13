@@ -1,0 +1,18 @@
+<h3>Edit group</h3><br/>
+<form method="post" action="">
+    <input type="hidden" name="id" value="<?=$data['group']['id']?>" />
+    <div class="form-group">
+        <label for="alias">Alias</label>
+        <input type="text" id="alias" name="alias" value="<?=$data['group']['alias']?>" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" value="<?=$data['group']['title']?>" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea name="content" id="content" class="form-control"><?=$data['group']['content']?></textarea>
+    </div>
+
+    <input type="submit" class="btn btn-success" />
+</form>

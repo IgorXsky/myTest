@@ -1,0 +1,19 @@
+<h3>Users</h3><br/>
+<table class="table table-striped" style="width: 400px;">
+<?php foreach($data['users'] as $user_data) { ?>
+    <tr>
+        <td><b><?=$user_data['login']?></b></td>
+        <td align="right">
+            <a href="/admin/users/enter/<?=$user_data['id']?>"><button class="btn btn-sm btn-primary ">add to group</button></a>
+            <a href="/admin/users/close/<?=$user_data['id']?>"><button class="btn btn-sm btn-warning">delete from group</button></a>
+            <a href="/admin/users/delete/<?=$user_data['id']?>" onclick="return confirmDelete();"><button class="btn btn-sm btn-danger">delete</button></a>
+        </td>
+    </tr>
+<?php } ?>
+</table>
+
+<br/>
+
+<div>
+    <a href="/admin/users/add/"><button class="btn btn-sm btn-success">New User</button></a>
+</div>

@@ -1,0 +1,16 @@
+<h3>Delete from</h3><br/>
+
+<form method="post" action="">
+    <input type="hidden" name="user_id" value="<?=$data['user_id']?>" />
+
+    <?php foreach($data['group'] as $group){ ?>
+        <input type="radio" name="group" value="<?=$group['id']?>"><?=$group['title']?><Br>
+    <?php }
+
+    if($data['group']){ ?>
+        <button type="submit" class="btn btn-success">Delete</button>
+    <?php }else{ ?>
+        <p>Пользователь не состоит ни в одной из груп</p>
+    <?php } ?>
+
+</form>

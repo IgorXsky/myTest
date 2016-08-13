@@ -1,0 +1,24 @@
+[12-Aug-2016 22:57:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Failed to include class: Favicon.icoController' in /home/yweekend/public_html/test/lib/init.php:17
+Stack trace:
+#0 /home/yweekend/public_html/test/lib/app.class.php(34): __autoload('Favicon.icoCont...')
+#1 /home/yweekend/public_html/test/webroot/index.php(11): App::run('/favicon.ico')
+#2 {main}
+  thrown in /home/yweekend/public_html/test/lib/init.php on line 17
+[12-Aug-2016 22:57:12 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Failed to include class: Favicon.icoController' in /home/yweekend/public_html/test/lib/init.php:17
+Stack trace:
+#0 /home/yweekend/public_html/test/lib/app.class.php(34): __autoload('Favicon.icoCont...')
+#1 /home/yweekend/public_html/test/webroot/index.php(11): App::run('/favicon.ico')
+#2 {main}
+  thrown in /home/yweekend/public_html/test/lib/init.php on line 17
+[12-Aug-2016 22:57:23 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Failed to include class: Favicon.icoController' in /home/yweekend/public_html/test/lib/init.php:17
+Stack trace:
+#0 /home/yweekend/public_html/test/lib/app.class.php(34): __autoload('Favicon.icoCont...')
+#1 /home/yweekend/public_html/test/webroot/index.php(11): App::run('/favicon.ico')
+#2 {main}
+  thrown in /home/yweekend/public_html/test/lib/init.php on line 17
+[12-Aug-2016 23:00:59 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Failed to include class: Favicon.icoController' in /home/yweekend/public_html/test/lib/init.php:17
+Stack trace:
+#0 /home/yweekend/public_html/test/lib/app.class.php(34): __autoload('Favicon.icoCont...')
+#1 /home/yweekend/public_html/test/webroot/index.php(11): App::run('/favicon.ico')
+#2 {main}
+  thrown in /home/yweekend/public_html/test/lib/init.php on line 17

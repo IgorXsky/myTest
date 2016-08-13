@@ -1,0 +1,18 @@
+<h3>Groups</h3><br/>
+<table class="table table-striped" style="width: 400px;">
+<?php foreach($data['groups'] as $groups_data) { ?>
+    <tr>
+        <td><b><?=$groups_data['title']?></b></td>
+        <td align="right">
+            <a href="/admin/groups/edit/<?=$groups_data['id']?>"><button class="btn btn-sm btn-warning">edit</button></a>
+            <a href="/admin/groups/delete/<?=$groups_data['id']?>" onclick="return confirmDelete();"><button class="btn btn-sm btn-danger">delete</button></a>
+        </td>
+    </tr>
+<?php } ?>
+</table>
+
+<br/>
+
+<div>
+    <a href="/admin/groups/add/"><button class="btn btn-sm btn-success">New Group</button></a>
+</div>

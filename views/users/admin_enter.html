@@ -1,0 +1,20 @@
+<h3>Add to group</h3><br/>
+
+<form method="post" action="">
+    <input type="hidden" name="user_id" value="<?=$data['user_id']?>" />
+
+
+    <?php foreach($data['groups'] as $group){ ?>
+
+        <input type="radio" name="group" value="<?=$group['id']?>"><?=$group['title']?><Br>
+
+    <?php }
+    if(!isset($data['groups'])){?>
+
+    <p>Пользователь уже состоит во всех группах</p>
+
+    <?php }else{ ?>
+    <button type="submit" class="btn btn-success">Add to group</button>
+    <?php } ?>
+
+</form>
