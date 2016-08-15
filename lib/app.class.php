@@ -6,9 +6,6 @@ class App{
 
     public static $db;
 
-    /**
-     * @return mixed
-     */
     public static function getRouter(){
         return self::$router;
     }

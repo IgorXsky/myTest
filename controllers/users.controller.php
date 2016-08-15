@@ -116,7 +116,6 @@ class UsersController extends Controller{
             }
             $this->data['user_id'] = $id;
 
-
         }
 
         if( $_POST ){
@@ -144,9 +143,6 @@ class UsersController extends Controller{
         }
         Router::redirect('/admin/users/');
     }
-
-
-
 
 
 }

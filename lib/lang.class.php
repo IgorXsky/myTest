@@ -18,4 +18,5 @@ class Lang{
         return isset(self::$data[strtolower($key)]) ? self::$data[strtolower($key)] : $default_value;
     }
 
+
 }

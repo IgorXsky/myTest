@@ -16,8 +16,8 @@ Config::set('default_controller', 'groups');
 Config::set('default_action', 'index');
 
 Config::set('db.host', 'localhost');
-Config::set('db.user', 'yweekend_xsky');
-Config::set('db.password', 'igor24');
-Config::set('db.db_name', 'yweekend_test');
+Config::set('db.user', 'root');
+Config::set('db.password', '');
+Config::set('db.db_name', 'test');
 
 Config::set('salt', 'igor');

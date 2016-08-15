@@ -8,9 +8,7 @@ class Controller{
 
     protected $params;
 
-    /**
-     * @return mixed
-     */
+
     public function getData(){
         return $this->data;
     }

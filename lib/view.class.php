@@ -38,4 +38,5 @@ class View{
         return $content;
     }
 
+
 }

@@ -95,6 +95,6 @@ class User extends Model {
         $id = (int)$id;
         $sql = "delete from users where id = {$id}";
         return $this->db->query($sql);
-
     }
+
 }

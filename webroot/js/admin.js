@@ -4,4 +4,5 @@ function confirmDelete(){
     } else {
         return false;
     }
+
 }

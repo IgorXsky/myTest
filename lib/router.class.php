@@ -16,9 +16,7 @@ class Router{
 
     protected $language;
 
-    /**
-     * @return mixed
-     */
+
     public function getUri()
     {
         return $this->uri;
